@@ -125,7 +125,7 @@
 
 import { useState } from 'react';
 import useLenis from './hooks/useLanis';
-import Preloader from './components/Preloader';
+import Preloader from './components/PreLoader';
 import CustomCursor from './components/CustomCursor';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
