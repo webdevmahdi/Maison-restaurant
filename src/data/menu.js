@@ -1,0 +1,68 @@
+export const menuItems = [
+  {
+    image: '/dish-1.jpg',
+    id: 1,
+    name: "Charred Octopus",
+    desc: "Grilled tentacle, smoked paprika oil, confit potato.",
+    price: 24,
+    category: "Starters",
+  },
+  {
+    image: '/dish-2-sushi.jpg',
+    id: 2,
+    name: "Burrata & Fig",
+    desc: "Creamy burrata, caramelized fig, aged balsamic.",
+    price: 18,
+    category: "Starters",
+  },
+  {
+    image: '/dish-3-duck-meat.jpg',
+    id: 3,
+    name: "Wagyu Striploin",
+    desc: "A5 wagyu, truffle jus, bone marrow crumb.",
+    price: 68,
+    category: "Mains",
+  },
+  {
+    image: '/dish-4-rice.jpg',
+    id: 4,
+    name: "Wild Mushroom Risotto",
+    desc: "Porcini, aged parmesan, black truffle shavings.",
+    price: 34,
+    category: "Mains",
+  },
+  {
+    image: '/dish-5.jpg',
+    id: 5,
+    name: "Butter-Poached Lobster",
+    desc: "Maine lobster, saffron beurre blanc, sea herbs.",
+    price: 52,
+    category: "Mains",
+  },
+  {
+    image: 'dish-6.jpg',
+    id: 6,
+    name: "Valrhona Fondant",
+    desc: "Molten dark chocolate, salted caramel, hazelnut.",
+    price: 16,
+    category: "Desserts",
+  },
+  {
+    image: 'dish-7.jpg',
+    id: 7,
+    name: "Yuzu Tart",
+    desc: "Torched meringue, yuzu curd, almond sable.",
+    price: 14,
+    category: "Desserts",
+  },
+  {
+    image: 'dish-8.jpg',
+    id: 8,
+    name: "Smoked Old Fashioned",
+    desc: "Oak smoke, bourbon, demerara, orange oils.",
+    price: 19,
+    category: "Drinks",
+  },
+];
+
+export const categories = ["All", "Starters", "Mains", "Desserts", "Drinks"];
